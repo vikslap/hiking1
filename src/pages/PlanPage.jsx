@@ -1,4 +1,4 @@
-import SidebarWrapper from "../components/SideBarWrapper";
+import SidebarWrapper from "../components/Sidebar";
 
 // Assets
 import soloImg from "../assets/solo-image.png";
