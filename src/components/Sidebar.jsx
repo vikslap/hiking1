@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
 import heroImg from "../assets/splash.png";
 
-export default function SidebarWrapper({ children }) {
+export default function Sidebar({ children }) {
   const [open, setOpen] = useState(false);
   const sidebarRef = useRef(null);
   const buttonRef = useRef(null);
