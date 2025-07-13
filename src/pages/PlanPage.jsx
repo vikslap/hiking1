@@ -1,4 +1,4 @@
-import SidebarWrapper from "../components/Sidebar";
+import Sidebar from "../components/Sidebar";
 
 // Assets
 import soloImg from "../assets/solo-image.png";
@@ -7,7 +7,7 @@ import familyImg from "../assets/family-image.png";
 
 export default function PlanPage() {
   return (
-    <SidebarWrapper>
+    <Sidebar>
       <div className="min-h-screen px-4 py-6 flex flex-col items-center">
         <h1 className="text-xl font-josefin font-bold uppercase tracking-wider text-center mb-1">
           <span className="text-burnt">Plan</span> Your Hike
@@ -37,6 +37,6 @@ export default function PlanPage() {
           </div>
         </div>
       </div>
-    </SidebarWrapper>
+    </Sidebar>
   );
 }
