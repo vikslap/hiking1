@@ -1,5 +1,6 @@
 import heroImg from "../assets/splash.png";
 import badgeImg from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 export default function LandingPage() {
   return (
@@ -36,9 +37,12 @@ export default function LandingPage() {
           </p>
 
           {/* CTA Button */}
-          <button className="w-full bg-burnt hover:bg-burnt-dark active:bg-burnt-darker text-white font-karla text-sm px-6 py-3 rounded-full tracking-wide transition-colors">
-            PLAN A HIKE
-          </button>
+          <Link to="/plan">
+            <button className="w-full bg-burnt hover:bg-burnt-dark active:bg-burnt-darker text-white font-karla text-sm px-6 py-3 rounded-full tracking-wide transition-colors">
+              PLAN A HIKE
+            </button>
+          </Link>
+
         </div>
       </div>
     </div>
