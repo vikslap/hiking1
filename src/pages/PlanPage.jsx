@@ -1,4 +1,4 @@
-import SidebarWrapper from "../components/SidebarWrapper"; // ✅ use the new reusable wrapper
+import SidebarWrapper from "../components/SideBarWrapper";
 
 // Assets
 import soloImg from "../assets/solo-image.png";
